@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "PassDataToOtherComponent"
+    }
+  },
+  "defaultProject": "PassDataToOtherComponent",
+  "cli": {
+    "analytics": "8f85b00c-d1b3-48c2-a1fc-9e9257ded8e4"
+  }
 }
