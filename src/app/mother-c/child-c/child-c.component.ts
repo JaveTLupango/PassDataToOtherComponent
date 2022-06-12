@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-child-c',
@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./child-c.component.css']
 })
 export class ChildCComponent implements OnInit {
+  @Input() getData : any;
 
-  constructor() { }
+  data : string;
+
+  constructor() {
+  }
 
   ngOnInit(): void {
+
+    this.data = this.getData;
   }
 
 }

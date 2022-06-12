@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MotherCComponent implements OnInit {
 
-  constructor() { }
+  passToChild : string;
+
+  constructor() {
+    this.passToChild = "Code-Life";
+  }
 
   ngOnInit(): void {
   }
